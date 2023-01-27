@@ -1,0 +1,12 @@
+import requests
+from bs4 import BeautifulSoup
+
+# you can insert the website link here
+url = "https://www.geeksforgeeks.org/"
+
+req = requests.get(url)
+soup = BeautifulSoup(req.content, "html.parser")
+
+oth = soup.title
+print(oth.get_text())
+print(oth.prettify())
