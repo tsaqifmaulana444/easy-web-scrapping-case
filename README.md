@@ -20,4 +20,3 @@ pip install beautifulsoup4
 - [@maulana](https://www.github.com/tsaqifmaulana444)
 
 ![Logo](https://img.shields.io/badge/lang-python-blue)
-![logo](https://img.shields.io/badge/framework-fastapi-yellow)
